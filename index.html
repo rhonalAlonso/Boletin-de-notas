@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletin de notas</title>
+    <script src="notas.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <h1>Boletin de notas.</h1>
+    <input type="number" id="nota_ingresada" placeholder="Ingresa tu nota.">
+    <button id="agregar" onclick="ingresar_nota()">Agregar nota.</button>
+    <br/>
+    <br>
+    <button id="lista" onclick="mostrar_lista()">Lista de notas.</button>
+    <button id="promedio" onclick="calcular_promedio()">Calcular promedio.</button>
+    <button id="nota_alta" onclick="nota_mas_alta()">Nota más alta.</button>
+    <button id="aplazo" onclick="validar_aplazos()">Validar aplazos.</button>
+    <br>
+    <br>
+    <ul id="lista_de_notas"></ul>
+    <h3 id="texto_resultado"></h3>
+    <h3 id="texto_resultado_2"></h3>
+    <h3 id="texto_resultado_3"></h3>
+
+</body>
+</html>

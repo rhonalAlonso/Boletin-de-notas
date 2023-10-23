@@ -1,0 +1,29 @@
+body{
+    background-color:azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    border-radius: 8%;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.2);
+}
+input{
+    height: 30px;
+    width: 125px;
+    font-size: 15px;
+    border-radius: 8%;
+    font-weight: bold;
+}
+ul{
+    
+    list-style-position: inside;
+    list-style-type: square;
+    font-weight: bold;
+
+}
